@@ -114,11 +114,11 @@ app.ws('/start', (ws, req) => {
 })
  
 
-app.get('/test', (req, res) => {
+app.get('/', (req, res) => {
   // send()方法，表示向浏览器发送一个响应信息
-  res.send('test');
+  res.send('链接成功');
 });
  
-app.listen(3001, () => {
-    console.log('http://localhost:3001/')
+app.listen(4000, () => {
+    console.log('http://localhost:4000/')
 })
