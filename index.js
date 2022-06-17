@@ -114,6 +114,6 @@ app.ws('/start', (ws, req) => {
 })
  
  
-app.listen(5050, () => {
-    console.log('http://localhost:5050/')
+app.listen(3000, () => {
+    console.log('http://localhost:3000/')
 })
