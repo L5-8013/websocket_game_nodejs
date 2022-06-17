@@ -113,6 +113,11 @@ app.ws('/start', (ws, req) => {
   })
 })
  
+
+app.get('/test', (req, res) => {
+  // send()方法，表示向浏览器发送一个响应信息
+  res.send('test');
+});
  
 app.listen(3000, () => {
     console.log('http://localhost:3000/')
